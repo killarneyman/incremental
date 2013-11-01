@@ -1,0 +1,36 @@
+body {
+	margin:0;
+	color:#333;
+}
+h1 { 
+	font-family:arial;
+	font-size : 25px;
+	padding:5px;
+	margin:0;
+	background-color:#333;
+	color:#fff;
+}
+
+#info {
+	padding:5px;
+	border-bottom:1px solid #666;
+}
+
+h2 {
+	font-family:arial;
+	font-size : 12px;
+	padding:5px;
+	margin:0;
+	background-color:#333;
+	color:#fff;
+}
+
+#actions {
+	width:50%;
+	float:left;
+}
+
+#upgrades {
+	width:50%;
+	float:right;
+}

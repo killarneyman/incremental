@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Click</title>
+		<meta name="description" content="Clickity Click">
+  		<meta name="author" content="Ian">
+  		<link rel="stylesheet" href="css/screen.css?v=0.1">
+  		<meta name="viewport" content="initial-scale = 1.0,maximum-scale = 1.0" />
+  		<!--[if lt IE 9]>
+			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	</head>
+	<body>
+		<h1>Clicker</h1>
+		<div id="info">
+			<span id="money">Money : $<span class="infoValue">0.00</span></span><br />
+			<span id="moneyPerSec">Money per second : $<span class="infoValue">0.00</span></span>
+		</div>
+		<div id="main">
+			<div id="actions">
+				<h2>Actions</h2>
+				<input type="button" id="moneyButton" onClick="dollars.click();" value="add money" />
+			</div>
+			<div id="upgrades">
+				<h2>Upgrades</h2>
+				<input type="button" id="upgrade-0" onClick="upgrades.buy(0);" disabled="true" value="Type (1) +1 mps ($20)" />
+				<input type="button" id="upgrade-1" onClick="upgrades.buy(1);" disabled="true" value="Type (1) +5 mps ($95)" />
+				<input type="button" id="upgrade-2" onClick="upgrades.buy(2);" disabled="true" value="Type (1) +50 mps ($9100)" />
+			</div>
+
+		</div>
+		<script type="application/javascript" src="js/main.js?v=0.1"></script>
+	</body>
+</html>
